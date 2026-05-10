@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Computing the Monthly Payment and Interest</h2>
+
+<script>
+let loan_amount = parseInt(prompt("Enter Loan amount:"));
+let interest_rate = parseInt(prompt("Enter Monthly interest(%):"));
+let number_months = parseInt(prompt("Enter Months to Pay:"));
+
+percent = interest_rate/ 100;
+month_int = loan_amount * percent;
+final_int = month_int * number_months;
+sum = loan_amount + final_int;
+payment = sum / number_months;
+
+alert(`LOAN AMOUNT: ${loan_amount} \n MONTHLY INTEREST: ${month_int} \n MONTHLY PAYMENT: ${payment}`);
+
+</script>
+
+</body>
+</html>

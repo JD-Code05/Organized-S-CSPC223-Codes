@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+
+<h2> Student Information and Average Grade</h2>
+
+<script>
+let lName = prompt("Enter your Last Name: ");
+let sName = prompt("Enter your first Name: ");
+let cys = prompt("Enter your Course and Section: ");
+let subject = prompt("Enter your Subject: ");
+let mG = parseFloat(prompt("Enter your Midterm Grade: "));
+let fG = parseFloat(prompt("Enter your Final Grade: "));
+
+let average = (mG + fG) / 2;
+
+document.write(lName + "," + sName + "<br><br>");
+document.write(cys + "<br><br>");
+document.write(subject + "<br><br>");
+document.write("MIDTERM: " + mG + "<br><br>");
+document.write("FINAL: " + fG + "<br><br>");
+document.write("AVERAGE: " + average);
+</script>
+
+</body>
+</html>
