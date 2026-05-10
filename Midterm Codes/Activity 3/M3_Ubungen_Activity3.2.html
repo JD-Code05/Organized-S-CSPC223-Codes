@@ -1,0 +1,33 @@
+<html>
+<script>
+    let Library = [
+        {
+            title: "Speaking JavaScript",
+            author: "Axel Rauschmayer",
+            nPages: 460
+        },
+        {
+            title: "Programming JavaScript Applications",
+            author: "Eric Elliott",
+            nPages: 254
+        },
+        {
+            title: "Understanding EMCAScript 6",
+            author: "Nicholas C. Zakas",
+            nPages: 352
+        }
+    ];
+
+    Library.push({
+        title: "Learning JavaScript Design Patterns",
+        author: "Addy Osmani",
+        nPages: 254
+    });
+
+    console.log(`Array Length: ${Library.length}`);
+
+    for (let i = 0; i < Library.length; i++) {
+        console.log(Library[i].title);
+    }
+</script>
+</html>

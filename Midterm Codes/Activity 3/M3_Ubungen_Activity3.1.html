@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<script>
+    let flower1 = {
+        fname: "Rose",
+        price: 8,
+        quantity: 70,
+    };
+
+    let flower2 = {
+        fname: "Lily",
+        price: 10,
+        quantity: 50,
+    };
+
+    let flower3 = {
+        fname: "Tulip",
+        price: 2,
+        quantity: 120,
+    };
+
+    let flower4 = {
+        fname: "Sampaguita",
+        price: 5,
+        quantity: 20,
+    };
+
+    let flower5 = {
+        fname: "Gerbera",
+        price: 25,
+        quantity: 24,
+    };
+
+    flower1.value = flower1.price * flower1.quantity;
+    flower2.value = flower2.price * flower2.quantity;
+    flower3.value = flower3.price * flower3.quantity;
+    flower4.value = flower4.price * flower4.quantity;
+    flower5.value = flower5.price * flower5.quantity;
+
+    let totalValue = flower1.value + flower2.value + flower3.value + flower4.value + flower5.value;
+
+    console.log("Welcome to JD's Flower Shop");
+    console.log(`${flower1.fname} - unit price: ${flower1.price}, quantity: ${flower1.quantity}, value: ${flower1.value}`);
+    console.log(`${flower2.fname} - unit price: ${flower2.price}, quantity: ${flower2.quantity}, value: ${flower2.value}`);
+    console.log(`${flower3.fname} - unit price: ${flower3.price}, quantity: ${flower3.quantity}, value: ${flower3.value}`);
+    console.log(`${flower4.fname} - unit price: ${flower4.price}, quantity: ${flower4.quantity}, value: ${flower4.value}`);
+    console.log(`${flower5.fname} - unit price: ${flower5.price}, quantity: ${flower5.quantity}, value: ${flower5.value}`);
+    console.log(`Total Value: ${totalValue}`);
+</script>
+</html>

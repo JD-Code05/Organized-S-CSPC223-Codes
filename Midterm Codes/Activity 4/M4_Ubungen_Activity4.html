@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>  
+<body>
+<script>
+    let items = [
+        {
+            product: "Nutella",
+            quantity: 3,
+            price: 500
+
+        },
+        {
+            product: "Gummy Bears",
+            quantity: 4,
+            price: 100
+        },
+    ];
+
+    items.push(
+        {
+            product: "Pringles",
+            quantity: 3,
+            price: 150
+        },
+        {
+            product: "Cupcake",
+            quantity: 4,
+            price: 75
+        },
+        {
+            product: "Fresh Milk",
+            quantity: 2,
+            price: 120
+        },
+        {
+            product: "Soft Drinks",
+            quantity: 3,
+            price: 80
+        },
+        {
+            product: "Cheese",
+            quantity: 5,
+            price: 60
+        });
+    let amountDue = 0;
+    console.log("Product".padEnd(15) + "Quantity".padEnd(10) + "Price".padEnd(10) + "Total");
+
+   
+
+    for(let i = 0; i < items.length; i++) {
+        let itemTotal = items[i].quantity * items[i].price; 
+        amountDue += itemTotal;
+        let product = items[i].product.padEnd(15);
+        let quantity = items[i].quantity.toString().padEnd(10);
+        let price = items[i].price.toString().padEnd(10);
+        let totalStr = itemTotal.toString();
+
+        console.log(product + quantity + price + totalStr);
+
+
+    }
+
+    let vat = amountDue * 0.12;
+    let totalAmountDue = amountDue + vat;
+
+    console.log("Number of Items: "+ items.length);
+    console.log("Amount Due: " + amountDue);
+    console.log("Vat (12%): " + vat.toFixed(2));
+    console.log("Total Amount Due: " + totalAmountDue.toFixed(2));
+
+    let cash = prompt("Enter your Cash Payment: ");
+    let change = cash - totalAmountDue;
+
+    alert ("Your change is : " + change.toFixed(2));
+
+    console.log ("Cash Payment: " + cash);
+    console.log ("Change: " + change.toFixed(2));
+
+
+</script>
+</body>
+</html>
