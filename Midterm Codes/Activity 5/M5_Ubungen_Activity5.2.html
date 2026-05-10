@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+
+let studName = prompt("Enter Student's Name: ");
+let subCode = prompt("Enter Subject Code: ");
+let midGr = parseFloat(prompt("Enter Midterm Grade: "));
+let finGr = parseFloat(prompt("Enter Final Grade: "));
+
+let avg = (midGr + finGr)/2
+
+if (avg > 59) {
+    remark = "Passed";
+    if (avg <= 100) {
+        point = "4.0";
+    } 
+
+    if (avg <= 97) {
+        point = "3.75";
+    } 
+
+    if (avg <= 94) {
+        point = "3.50";
+    }  
+
+    if (avg <= 91) {
+        point = "3.25";
+    } 
+
+    if (avg <= 88) {
+        point = "3.00";
+    } 
+
+    if (avg <= 85) {
+        point = "2.75";
+    } 
+
+    if (avg <= 82) {
+        point = "2.50";
+    } 
+
+    if (avg <= 79) {
+        point = "2.25";
+    } 
+
+    if (avg <= 76) {
+        point = "2.00";
+    } 
+
+    if (avg <= 73) {
+        point = "1.75";
+    } 
+
+    if (avg <= 70) {
+        point = "1.50";
+    } 
+
+    if (avg <= 67) {
+        point = "1.25";
+    } 
+
+    if (avg <= 63) {
+        point = "1.00";
+    } 
+
+}
+else {
+        remark = "Failed";
+        point = "0.00";
+    }
+
+
+alert(`Student name: ${studName} 
+Subject code: ${subCode} 
+Midterm Grade: ${midGr} 
+Final Grade: ${finGr} 
+
+Subject Grade: ${avg} 
+Grade Point: ${point} 
+Remark: ${remark}`);
+
+</script>
+</body>
+</html>

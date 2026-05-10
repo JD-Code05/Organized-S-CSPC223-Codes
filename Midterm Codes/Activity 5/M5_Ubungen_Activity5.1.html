@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script>
+
+let n1 = parseFloat(prompt("Enter First Number: "));
+let n2 = parseFloat(prompt("Enter Second Number: "));
+let operd = prompt("Enter Operand of your choice: (+, -, *, /, ): ");
+
+switch (operd){
+  case "+":
+    op = n1 + n2;
+    break;
+  case "-":
+    op = n1 - n2;
+    break;
+  case "*":
+    op = n1 * n2;
+    break;
+  case "/":
+    op = n1 / n2;
+    break;
+  default:
+    alert("Error: Use +, -, * or /.")
+}
+
+alert(op);
+
+</script>
+</head>
+</html>
