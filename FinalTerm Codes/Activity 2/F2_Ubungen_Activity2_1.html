@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <title> JavaScript </title>
+<script type="text/javascript" language="javascript">
+    function sum() {
+        var a = parseInt(document.getElementById("num1").value);
+        var b = parseInt(document.getElementById("num2").value);
+        var sum = a + b;
+        document.getElementById("ans").value = sum;
+    }
+    function input() {
+        var a = "";
+        var b = "";
+        var sum = "";
+        document.getElementById("num1").value = a;
+        document.getElementById("num2").value = b;
+        document.getElementById("ans").value = sum;
+    }
+</script>
+</head>
+<body>
+    <h1> Basic Java Script Code</h1><br>
+
+    <p> Input First Number </p>
+    <input type="text" id="num1"><br>
+
+    <p> Input Second Number </p>
+    <input type="text" id="num2"><br>
+
+    <p> Answer </p>
+    <input type="text" id="ans"><br><br>
+
+    <input type="button" onclick="sum()" value="Sum" class="button">
+
+    <input type="button" onclick="input()" value="Clear" class="button">
+</body>
+</html>

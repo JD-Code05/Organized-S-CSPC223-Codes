@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <title>JavaScript SELECT</title>
+    <script>
+        function compute() {
+            var first = parseInt(document.getElementById('first').value);
+            var second = parseInt(document.getElementById('second').value);
+            var operation = document.getElementById('operation').item(0);
+
+            switch(operation.value) {
+                case "add":
+                    document.getElementById('answer').value = first + second;
+                    break;
+                case "subtract":
+                    document.getElementById('answer').value = first - second;
+                    break;
+                case "multiply":
+                    document.getElementById('answer').value = first * second;
+                    break;
+                case "divide":
+                    document.getElementById('answer').value = first / second;
+                    break;
+            }
+        }
+        function reset() {
+            document.getElementById('first').value = " ";
+            document.getElementById('second').value = " ";
+            document.getElementById('answer').value = " ";
+        }
+    </script>
+</head>
+<body>
+    First Digit: <input type="text" id="first" /><br/>
+    Second Digit: <input type="text" id="second" /><br/>
+
+    Operation:
+    <select name="operation">
+        <option value="add">Addition</option>
+        <option value="subtract">Subtraction</option>
+        <option value="multiply">Multiplication</option>
+        <option value="divide">Division</option>
+    </select> <br/>
+
+    Answer: 
+    <input type="text" id="answer" readonly /><br/>
+    
+    <input type="button" onclick="reset()" value="Reset" />
+    <input type="button" onclick="compute()" value="Compute" />
+
+</body>
+</html>

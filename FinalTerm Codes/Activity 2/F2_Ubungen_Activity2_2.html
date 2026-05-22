@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <title>Javascript RADIO</title>
+<script>
+    function compute() {
+        
+        var first = parseInt(document.getElementById('first').value);
+        var second = parseInt(document.getElementById('second').value);
+        var operation = document.getElementsByName('operation');
+        
+        var add = operation.item(0);
+        var subtract = operation.item(1);
+        var multiply = operation.item(2);
+        var divide = operation.item(3);
+            
+        if (add.checked === true) {
+            document.getElementById('answer').value= first + second;
+        }
+        else if (subtract.checked === true) {
+            document.getElementById('answer').value= first - second;
+            }
+        else if (multiply.checked === true) {
+            document.getElementById('answer'). value = first * second;
+            }
+        else if (divide.checked === true) {
+            document.getElementById('answer').value = first / second;
+        }
+    }
+    
+    function reset() {
+        document.getEelementById('first').value= " ";
+        doucment.getEelementById('second').value= " ";
+        document.getElementById('answer').value= " ";
+    }
+</script>
+</head>
+<body>
+    First Digit: <input type="text" id="first" /><br/>
+    Second Digit: <input type="text" id="second" /><br/>
+
+    Operation: 
+    <input type="radio" name="operation" valu="add" id="add" checked />
+    <label for ="add">Addition</label>
+
+    <input type="radio" name="operation" value="subtract" id="subtract" />
+    <label for ="subtract">Subtraction</label>
+
+    <input type="radio" name="operation" value="multiply" id="multiply" />
+    <label for ="multiply">Multiplication</label>
+
+    <input type="radio" name="operation" value="divide" id="divide" />
+    <label for ="divide">Division</label><br/><br/>
+
+    Answer: <input type="text" id="answer" readonly /><br/>
+    <input type="button" onclick="reset()" value="Reset" />
+    <input type="button" onclick="compute()" value="Compute" />
+</body>
+</html>

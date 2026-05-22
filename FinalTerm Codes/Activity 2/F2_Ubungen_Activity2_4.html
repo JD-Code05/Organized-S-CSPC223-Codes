@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <title> Checkbox </title>
+    <script>
+        function compute() {
+            var apple=document.getElementById('apple').checked;
+            var orange=document.getElementById('orange').checked;
+            var grapes=document.getElementById('grapes').checked;
+
+            var sumPrice=0;
+            if (apple === true) {
+                sumPrice= sumPrice + 50;
+            }
+            if (orange === true) {
+                sumPrice= sumPrice + 30;
+            }
+            if (grapes === true) {
+                sumPrice= sumPrice + 20;
+            }
+
+            document.getElementById('total').innerHTML="P"+sumPrice;        
+        }
+    </script>
+</head>
+<body>
+    Shopping Cart: <br />
+    <form id="checkbox" onChange="compute()">
+        <input type="checkbox" id="apple">
+        <label for="apple">P50 - Apple </label><br />
+        <input type="checkbox" id="orange">
+        <label for="orange">P30 - Orange </label><br />
+        <input type="checkbox" id="grapes">
+        <label for="grapes">P20 - Grapes </label><br /><br />
+    </form>
+    TOTAL: <span id="total">P0</span>
+</body>
+</html>

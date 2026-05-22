@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+<body>
+    <img src="trex.jpg" id="slider" />
+</body>
+<script>
+    var img = document.getElementById("slider");
+    var counter = 1;
+
+    function slideshow() {
+        if (counter === 1) {
+            img.src="blue.jpg"; counter++;
+        }
+        else if (counter === 2) {
+            img.src="stego.jpg"; counter++;
+        }
+        else if (counter === 3) {
+            img.src="indo.jpg"; counter=1;
+        }
+        setTimeout(function() {
+            slideshow()},800);
+
+        }
+    slideshow();
+</script>
+</head>
