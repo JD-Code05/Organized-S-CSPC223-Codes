@@ -34,36 +34,36 @@ Each activity now includes **instructions in a PDF format** for easy reference (
 
 ### Activity 2 — Variables and Operators
 
-| # | Description | File |
-|---|-------------|------|
-| 1 | Student Information and Average Grade | `M2_Ubungen_Activity2.1.html` |
-| 2 | Monthly Payment and Interest Calculator | `M2_Ubungen_Activity2.2.html` |
+| #   | Description                             | File                          |
+| --- | --------------------------------------- | ----------------------------- |
+| 1   | Student Information and Average Grade   | `M2_Ubungen_Activity2.1.html` |
+| 2   | Monthly Payment and Interest Calculator | `M2_Ubungen_Activity2.2.html` |
 
 ---
 
 ### Activity 3 — Objects and Arrays
 
-| # | Description | File |
-|---|-------------|------|
-| 1 | Flower Shop Inventory with Object Properties | `M3_Ubungen_Activity3.1.html` |
-| 2 | Library Array with Dynamic Push and Loop | `M3_Ubungen_Activity3.2.html` |
+| #   | Description                                  | File                          |
+| --- | -------------------------------------------- | ----------------------------- |
+| 1   | Flower Shop Inventory with Object Properties | `M3_Ubungen_Activity3.1.html` |
+| 2   | Library Array with Dynamic Push and Loop     | `M3_Ubungen_Activity3.2.html` |
 
 ---
 
 ### Activity 4 — Arrays of Objects & Loops
 
-| # | Description | File |
-|---|-------------|------|
-| 1 | Grocery Shopping Receipt with VAT and Change | `M4_Ubungen_Activity4.html` |
+| #   | Description                                  | File                        |
+| --- | -------------------------------------------- | --------------------------- |
+| 1   | Grocery Shopping Receipt with VAT and Change | `M4_Ubungen_Activity4.html` |
 
 ---
 
 ### Activity 5 — Conditionals and Control Flow
 
-| # | Description | File |
-|---|-------------|------|
-| 1 | Basic Calculator Using Switch Statement | `M5_Ubungen_Activity5.1.html` |
-| 2 | Grade Point and Remark Evaluator | `M5_Ubungen_Activity5.2.html` |
+| #   | Description                             | File                          |
+| --- | --------------------------------------- | ----------------------------- |
+| 1   | Basic Calculator Using Switch Statement | `M5_Ubungen_Activity5.1.html` |
+| 2   | Grade Point and Remark Evaluator        | `M5_Ubungen_Activity5.2.html` |
 
 ---
 
@@ -71,33 +71,33 @@ Each activity now includes **instructions in a PDF format** for easy reference (
 
 ### Activity 1 — Arrays, Loops, and Grading
 
-| # | Description | File |
-|---|-------------|------|
-| 1 | Student Marks Average and Letter Grade (Array + If-Else) | `F1_Ubungen_Activity1_A.html` |
-| 2 | Multiplication Table — For Loop | `F1_Ubungen_Activity1_B1.1(For loop).html` |
-| 3 | Multiplication Table — While Loop | `F1_Ubungen_Activity1_B1.2(While loop).html` |
-| 4 | Multiplication Table — Do-While Loop | `F1_Ubungen_Activity1_B1.3(Do while).html` |
-| 5 | Squares (0–10) — For Loop | `F1_Ubungen_Activity1_B2.1(For loop).html` |
-| 6 | Squares (0–10) — While Loop | `F1_Ubungen_Activity1_B2.2(While loop).html` |
-| 7 | Squares (0–10) — Do-While Loop | `F1_Ubungen_Activity1_B2.3(Do while).html` |
-| 8 | Squares (0–10) — Do-While (Alt) | `F1_Ubungen_Activity1B_2.3.html` |
-| 9 | Multiplication Table — For Loop (Alt) | `F1_Ubungen_Activity1_B1.1.html` |
-| 10 | Multiplication Table — While Loop (Alt) | `F1_Ubungen_Activity1_B1.2.html` |
-| 11 | Multiplication Table — Do-While (Alt) | `F1_Ubungen_Activity1_B1.3.html` |
-| 12 | Squares (0–10) — For Loop (Alt) | `F1_Ubungen_Activity1_B2.1.html` |
-| 13 | Squares (0–10) — While Loop (Alt) | `F1_Ubungen_Activity1_B2.2.html` |
+| #   | Description                                              | File                                         |
+| --- | -------------------------------------------------------- | -------------------------------------------- |
+| 1   | Student Marks Average and Letter Grade (Array + If-Else) | `F1_Ubungen_Activity1_A.html`                |
+| 2   | Multiplication Table — For Loop                          | `F1_Ubungen_Activity1_B1.1(For loop).html`   |
+| 3   | Multiplication Table — While Loop                        | `F1_Ubungen_Activity1_B1.2(While loop).html` |
+| 4   | Multiplication Table — Do-While Loop                     | `F1_Ubungen_Activity1_B1.3(Do while).html`   |
+| 5   | Squares (0–10) — For Loop                                | `F1_Ubungen_Activity1_B2.1(For loop).html`   |
+| 6   | Squares (0–10) — While Loop                              | `F1_Ubungen_Activity1_B2.2(While loop).html` |
+| 7   | Squares (0–10) — Do-While Loop                           | `F1_Ubungen_Activity1_B2.3(Do while).html`   |
+| 8   | Squares (0–10) — Do-While (Alt)                          | `F1_Ubungen_Activity1B_2.3.html`             |
+| 9   | Multiplication Table — For Loop (Alt)                    | `F1_Ubungen_Activity1_B1.1.html`             |
+| 10  | Multiplication Table — While Loop (Alt)                  | `F1_Ubungen_Activity1_B1.2.html`             |
+| 11  | Multiplication Table — Do-While (Alt)                    | `F1_Ubungen_Activity1_B1.3.html`             |
+| 12  | Squares (0–10) — For Loop (Alt)                          | `F1_Ubungen_Activity1_B2.1.html`             |
+| 13  | Squares (0–10) — While Loop (Alt)                        | `F1_Ubungen_Activity1_B2.2.html`             |
 
 ---
 
 ### Activity 2 — DOM and Form Interactions
 
-| # | Description | File |
-|---|-------------|------|
-| 1 | Basic Sum Calculator (Text Input + Button) | `F2_Ubungen_Activity2_1.html` |
-| 2 | Arithmetic Calculator with Radio Buttons | `F2_Ubungen_Activity2_2.html` |
-| 3 | Arithmetic Calculator with Dropdown Select | `F2_Ubungen_Activity2_3.html` |
-| 4 | Fruit Shopping Cart with Checkboxes | `F2_Ubungen_Activity2_4.html` |
-| 5 | Dinosaur Image Slideshow (setTimeout) | `F2_Ubungen_Activity2_5.html` |
+| #   | Description                                | File                          |
+| --- | ------------------------------------------ | ----------------------------- |
+| 1   | Basic Sum Calculator (Text Input + Button) | `F2_Ubungen_Activity2_1.html` |
+| 2   | Arithmetic Calculator with Radio Buttons   | `F2_Ubungen_Activity2_2.html` |
+| 3   | Arithmetic Calculator with Dropdown Select | `F2_Ubungen_Activity2_3.html` |
+| 4   | Fruit Shopping Cart with Checkboxes        | `F2_Ubungen_Activity2_4.html` |
+| 5   | Dinosaur Image Slideshow (setTimeout)      | `F2_Ubungen_Activity2_5.html` |
 
 ---
 
